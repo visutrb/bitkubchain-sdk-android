@@ -5,8 +5,8 @@ plugins {
 publishing {
     publications {
         create<MavenPublication>("release") {
-            groupId = "com.bbt.core.bkc.sdk"
-            artifactId = "bitkubchain-sdk"
+            groupId = "com.github.visutrb"
+            artifactId = "bitkubchain-sdk-android"
             version = "0.0.1"
             artifact("dist/bkcsdk.aar")
         }
