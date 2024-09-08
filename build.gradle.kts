@@ -12,3 +12,9 @@ publishing {
         }
     }
 }
+
+tasks.register("assemble") {
+    doLast {
+        println("Placeholder for assembling artifact")
+    }
+}
