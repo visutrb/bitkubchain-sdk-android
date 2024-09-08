@@ -6,7 +6,7 @@ publishing {
     publications {
         create<MavenPublication>("release") {
             groupId = "com.github.visutrb"
-            artifactId = "bitkubchain-sdk-android"
+            artifactId = "bitkubchain-sdk-android-dist"
             version = "0.0.1"
             artifact("dist/bkcsdk.aar")
         }
